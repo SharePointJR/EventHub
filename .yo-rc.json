@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "event-hub",
+    "libraryId": "bd1f6870-c821-4f67-8772-beb700a08a61",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "event-hub-client-side-solution",
+    "id": "bd1f6870-c821-4f67-8772-beb700a08a61",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/event-hub.sppkg"
+  }
+}
