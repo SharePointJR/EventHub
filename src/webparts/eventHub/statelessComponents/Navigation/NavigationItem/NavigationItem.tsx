@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 import styles from '../NavigationItem/NavigationItem.module.scss';
 
 export interface NavigationItemProps {
-    url: string,
-    exact?: boolean,
-    children: React.ReactNode
+    url: string;
+    exact?: boolean;
+    children: React.ReactNode;
 }
 
 const navigationItem = (props:NavigationItemProps) => (

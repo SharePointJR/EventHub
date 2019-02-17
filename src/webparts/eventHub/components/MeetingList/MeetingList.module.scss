@@ -1,0 +1,25 @@
+.MeetingList {
+    list-style-type: none;
+    padding: 0px;  
+    
+    li {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 1px 2px;
+        padding: 0px 10px;
+        margin: 10px;     
+    }
+
+    .Date {
+        text-transform: uppercase;
+        color: #00a2c7;
+    }
+    
+    .Title {
+        text-transform: uppercase;
+    }
+
+    .Description {
+        text-align: left;
+    }
+}

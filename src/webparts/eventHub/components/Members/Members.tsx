@@ -4,7 +4,7 @@ import Member from '../../statelessComponents/Member/Member';
 import styles from './Members.module.scss';
 
 class Members extends React.Component<any, any> {
-   state = {
+   public state: any = {
         person: [
             {
                 name: "Jason Rivera",
@@ -22,7 +22,7 @@ class Members extends React.Component<any, any> {
                 secondaryText: "Manager"
             }
         ]
-    }
+    };
 
     public render(): React.ReactElement<any> {
 

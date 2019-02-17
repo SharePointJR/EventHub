@@ -20,7 +20,10 @@
     "description": { "default": "EventHub description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "EventHub"
+      "description": "EventHub",
+      "listName": "",
+      "listItem": "",
+      "meetingListName": ""
     }
   }]
 }

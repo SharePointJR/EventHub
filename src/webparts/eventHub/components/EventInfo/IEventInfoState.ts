@@ -3,6 +3,7 @@ export interface IEventInfoState {
         name: string,
         location: string,
         organizers: string[],
-        numOfAttendees: number
-    }
+        numOfMembers: number,
+        meetings: any[]
+    };
 }
