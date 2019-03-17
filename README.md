@@ -1,6 +1,6 @@
 ## event-hub
 
-This is where you include your WebPart documentation.
+Event-hub is a simple web part that was built for a demo.  It demonstrates basic React and Redux concepts.
 
 ### Building the code
 
