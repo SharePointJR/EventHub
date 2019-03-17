@@ -1,5 +1,9 @@
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
+
+import { Store, createStore } from 'redux'
+import { Provider } from 'react-redux'
+
 import { Version } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
@@ -15,6 +19,7 @@ import { IEventHubProps } from './components/EventHub/IEventHubProps';
 
 import { sp } from '@pnp/sp';
 import EventInfo from './components/EventInfo/EventInfo';
+import { reducer } from './store/reducers/EventInfo';
 //import times = require('lodash/times');
 
 export interface IEventHubWebPartProps {
@@ -87,7 +92,6 @@ export default class EventHubWebPart extends BaseClientSideWebPart<IEventHubWebP
 
 
   public render(): void {
-    console.log('rendering a new EventHub component...');
     const element: React.ReactElement<IEventHubProps > = React.createElement(
       EventHub,
       {

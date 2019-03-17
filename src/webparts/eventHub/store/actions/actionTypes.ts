@@ -1,0 +1,4 @@
+export const INCREMENT_MEMBER = 'INCREMENT_MEMBER';
+export const DECREMENT_MEMBER = 'DECREMENT_MEMBER';
+export const SET_EVENT = 'SET_EVENT';
+export const INIT_EVENT = 'INIT_EVENT';

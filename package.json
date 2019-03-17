@@ -27,8 +27,11 @@
     "office-ui-fabric-react": "^5.135.0",
     "react": "16.3.2",
     "react-dom": "16.3.2",
+    "react-redux": "^6.0.0",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "resolutions": {
     "@types/react": "16.4.2"
