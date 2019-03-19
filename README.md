@@ -1,6 +1,7 @@
 ## event-hub
 
 Event-hub is a simple web part that was built for a demo.  It demonstrates basic React and Redux concepts.
+I walk through some of the details on https://sharepointlessons.wordpress.com/2019/03/18/building-an-app-with-spfx-react-and-typescript-part-1-stateless-functional-components/
 
 ### Building the code
 
